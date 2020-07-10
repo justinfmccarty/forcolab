@@ -1,4 +1,4 @@
-archetype,vp_vo_n,age,family_type,duration,spending,env,income,mortgage_percent,credit,house_sqft,lot_sqft,house_ age,step,suite,reno_plan,wall_type,wall_age,window_type,window_age,roof_type,roof_age,heat_eff,heat_fuel,heat_age,dhw_eff,dwh_fuel,dhw_age,cool_fuel,leakage,maintenance,asbestos,sort
+archetype,vp_vo_n,age,family_type,duration,spending,env,income,mortgage_percent,credit,house_sqft,lot_sqft,house_age,step,suite,reno_plan,wall_type,wall_age,window_type,window_age,roof_type,roof_age,heat_eff,heat_fuel,heat_age,dhw_eff,dwh_fuel,dhw_age,cool_fuel,leakage,maintenance,asbestos,sort
 4,3,3,1,1,2,1,2,2,1,2,2,3,1,0,0,1,4,2,4,1,3,2,1,2,2,1,2,1,2,3,0,31
 4,3,3,1,1,2,1,2,2,1,2,2,3,1,0,0,1,4,2,4,1,3,2,1,2,2,1,2,1,2,3,0,55
 4,5,3,3,1,2,3,3,4,1,2,2,3,1,0,1,1,4,2,4,1,3,2,1,2,2,1,2,1,2,3,0,10
