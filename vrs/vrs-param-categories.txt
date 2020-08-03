@@ -54,6 +54,7 @@ narr-credit
 good=1
 fair=2
 excellent=3
+nan=9
 
 prm-house sqft
 2100=1
