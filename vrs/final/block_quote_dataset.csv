@@ -1,0 +1,24 @@
+,respondent,id,prm-house age,expqual-field,expqual-field_years,expqual-step_familiar,expqual-market_familiar,resp-confidence,resp-likert_step2,resp-likert_step3,resp-likert_step4,resp-likert_step5,resp-likert_higheff,resp-retrofit_teardown_neither,resp-likert_carbon2050
+55,18,sb1,1991,Education,10 to 14,7,6,3,5,4,1,1,5,neither,6
+45,16,vs4,1975,Other,10 to 14,7,6,4,5,4,3,2,5,neither,1
+64,5,sb6,1991,Engineering and computer science,10 to 14,7,5,4,5,1,1,1,2,neither,1
+25,24,gwh1,1911,Engineering and computer science,15 to 19,7,6,3,2,1,1,1,1,neither,1
+12,11,wc3,2018,Engineering and computer science, > 24,7,6,4,5,1,1,1,3,neither,7
+2,29,sb3,1991,Government and public works,15 to 19,1,6,3,3,2,1,1,2,teardown,3
+23,24,mp2,1952,Engineering and computer science,15 to 19,7,6,3,2,1,1,1,1,neither,1
+56,1,sb1,1991,Engineering and computer science,10 to 14,5,5,3,6,5,4,4,5,teardown,5
+23,24,mp2,1952,Engineering and computer science,15 to 19,7,6,3,2,1,1,1,1,neither,1
+6,28,vs1,1975,"Architecture, planning, and environmental design", > 24,7,6,4,3,1,1,1,3,neither,1
+59,17,vs3,1975,Engineering and computer science,10 to 14,7,6,3,5,5,3,1,3,neither,5
+53,2,gwh6,1911,Government and public works,5 to 9,7,5,3,5,4,3,3,4,retrofit,5
+54,2,gwh6,1911,Government and public works,5 to 9,7,6,3,5,4,2,1,5,neither,6
+26,16,gwh1,1911,Other,10 to 14,7,6,4,5,5,3,2,5,neither,5
+63,8,mp5,1952,Government and public works, > 24,6,6,3,3,1,1,1,3,teardown,3
+52,11,gwh6,1911,Engineering and computer science, > 24,7,6,4,1,1,1,1,3,neither,3
+38,1,mp4,1952,Engineering and computer science,10 to 14,5,5,3,3,2,1,1,2,neither,4
+56,1,sb1,1991,Engineering and computer science,10 to 14,5,5,3,6,5,4,4,5,teardown,5
+6,28,vs1,1975,"Architecture, planning, and environmental design", > 24,7,6,4,3,1,1,1,3,neither,1
+19,24,vs5,1975,Engineering and computer science,15 to 19,7,6,4,6,5,3,1,2,neither,3
+15,5,vs2,1975,Engineering and computer science,10 to 14,7,5,4,5,2,1,1,1,teardown,4
+21,2,vs5,1975,Government and public works,5 to 9,7,5,3,5,4,4,3,4,teardown,5
+22,2,vs5,1975,Government and public works,5 to 9,7,6,3,4,1,1,1,4,teardown,4
