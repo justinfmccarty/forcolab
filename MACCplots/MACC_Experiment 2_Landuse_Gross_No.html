@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.1.min.js" integrity="sha384-qkRvDQVAIfzsJo40iRBbxt6sttt0hv4lh74DG7OK4MCHv4C5oohXYoHUM5W11uqS" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="58c98071-c77b-4e2f-b10a-12dbe82e383c" data-root-id="1562"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1714">
+          {"e5c57e9e-074f-47b2-b94c-cd858e9c6ddb":{"roots":{"references":[{"attributes":{"background_fill_color":"white","below":[{"id":"1571"}],"center":[{"id":"1574"},{"id":"1578"},{"id":"1599"},{"id":"1601"}],"left":[{"id":"1575"}],"min_border":0,"plot_width":1200,"renderers":[{"id":"1594"}],"title":{"id":"1608"},"toolbar":{"id":"1586"},"x_range":{"id":"1563"},"x_scale":{"id":"1567"},"y_range":{"id":"1565"},"y_scale":{"id":"1569"}},"id":"1562","subtype":"Figure","type":"Plot"},{"attributes":{"format":","},"id":"1604","type":"NumeralTickFormatter"},{"attributes":{"source":{"id":"1561"}},"id":"1595","type":"CDSView"},{"attributes":{"text":"Experiment 2 Marginal Abatement in Landuse (Gross)"},"id":"1608","type":"Title"},{"attributes":{"data":{"abated":{"__ndarray__":"298AALE2AACPGwAAegUAAGgFAACLAAAAOgUAAAMwAAAxCAAAfwMAADgOAAD7AQAA","dtype":"int32","order":"little","shape":[12]},"bottom":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","dtype":"int32","order":"little","shape":[12]},"color":["#7164a7","#7d73a0","#584eb3","#7d73a0","#7164a7","#1331c1","#6155af","#7d73a0","#7164a7","#413fba","#776ca4","#776ca4"],"index":["Retrofit-Single Family Detached","Retrofit--Single Family Attached","Retrofit-Commercial","Retrofit-Mixed Use","Retrofit-Civic","New-Civic","New-Multifamily Low","Retrofit-Multifamily Low","New-Commercial","New--Single Family Attached","New-Mixed Use","New-Single Family Detached"],"left":{"__ndarray__":"AAAAANvfAACNFgEAHDIBAJY3AQD/PAEAij0BAMRCAQDIcgEA+XoBAHh+AQCxjAEA","dtype":"int32","order":"little","shape":[12]},"net_kwh":{"__ndarray__":"C06qaNRLdUEeFxfjXZpYQbZ21ss+1lhBKJRalTIK2kA94Oxi9LMeQf/////fwCNBAAAAQGShV0EdxUZBNfRnQZiL+KPAhGJB+gTN0cSgT0EAAABA1hJwQYEIEFZD7EFB","dtype":"float64","order":"little","shape":[12]},"right":{"__ndarray__":"298AAI0WAQAcMgEAljcBAP88AQCKPQEAxEIBAMhyAQD5egEAeH4BALGMAQCsjgEA","dtype":"int32","order":"little","shape":[12]},"top":{"__ndarray__":"/RLM/LBJwv8T2eb/MNH//88AAACZswAAWTUDAD1UBQDuswYA5NEIACLwCAD3ohMA","dtype":"int32","order":"little","shape":[12]},"total_kWh_bin":{"__ndarray__":"RgAAAGEAAAArAAAAZAAAAEcAAAAAAAAAOAAAAGEAAABIAAAAGAAAAFEAAABZAAAA","dtype":"int32","order":"little","shape":[12]}},"selected":{"id":"1643"},"selection_policy":{"id":"1642"}},"id":"1561","type":"ColumnDataSource"},{"attributes":{},"id":"1563","type":"DataRange1d"},{"attributes":{},"id":"1579","type":"PanTool"},{"attributes":{},"id":"1580","type":"WheelZoomTool"},{"attributes":{},"id":"1642","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"1585"}},"id":"1581","type":"BoxZoomTool"},{"attributes":{},"id":"1643","type":"Selection"},{"attributes":{},"id":"1582","type":"SaveTool"},{"attributes":{},"id":"1583","type":"ResetTool"},{"attributes":{},"id":"1584","type":"HelpTool"},{"attributes":{},"id":"1567","type":"LinearScale"},{"attributes":{"bottom":{"field":"bottom"},"fill_color":{"field":"color"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"1593","type":"Quad"},{"attributes":{"axis":null,"grid_line_color":null,"ticker":{"id":"1598"}},"id":"1599","type":"Grid"},{"attributes":{"axis_label":"Tonnes CO2e Abated over 20 Years","formatter":{"id":"1604"},"ticker":{"id":"1572"}},"id":"1571","type":"LinearAxis"},{"attributes":{"data_source":{"id":"1561"},"glyph":{"id":"1593"},"hover_glyph":null,"muted_glyph":null,"view":{"id":"1595"}},"id":"1594","type":"GlyphRenderer"},{"attributes":{},"id":"1600","type":"BasicTicker"},{"attributes":{"axis":{"id":"1571"},"grid_line_color":null,"ticker":null},"id":"1574","type":"Grid"},{"attributes":{},"id":"1565","type":"DataRange1d"},{"attributes":{"axis":{"id":"1575"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1578","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1585","type":"BoxAnnotation"},{"attributes":{},"id":"1576","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1579"},{"id":"1580"},{"id":"1581"},{"id":"1582"},{"id":"1583"},{"id":"1584"},{"id":"1602"}]},"id":"1586","type":"Toolbar"},{"attributes":{},"id":"1569","type":"LinearScale"},{"attributes":{},"id":"1598","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["Measure","@index"],["Marginal Cost","@top{($ 0.00 a)}"],["tCO2e Abated","@abated{0,0}"],["Energy Demand Reduced","@net_kwh{0,0a} kWh"]]},"id":"1602","type":"HoverTool"},{"attributes":{"axis_label":"$ per Tonne CO2e","formatter":{"id":"1606"},"ticker":{"id":"1576"}},"id":"1575","type":"LinearAxis"},{"attributes":{"axis":null,"dimension":1,"grid_line_color":null,"ticker":{"id":"1600"}},"id":"1601","type":"Grid"},{"attributes":{"format":"$0,0"},"id":"1606","type":"NumeralTickFormatter"},{"attributes":{},"id":"1572","type":"BasicTicker"}],"root_ids":["1562"]},"title":"Bokeh Application","version":"2.2.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1714').textContent;
+                  var render_items = [{"docid":"e5c57e9e-074f-47b2-b94c-cd858e9c6ddb","root_ids":["1562"],"roots":{"1562":"58c98071-c77b-4e2f-b10a-12dbe82e383c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
