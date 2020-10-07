@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.1.min.js" integrity="sha384-qkRvDQVAIfzsJo40iRBbxt6sttt0hv4lh74DG7OK4MCHv4C5oohXYoHUM5W11uqS" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="a94016d8-a6e6-4e4c-96e2-894515767f5a" data-root-id="1121"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1252">
+          {"2cfe0e76-56b1-4cea-a7ca-62a7e61d1b14":{"roots":{"references":[{"attributes":{"background_fill_color":"white","below":[{"id":"1130"}],"center":[{"id":"1133"},{"id":"1137"},{"id":"1158"},{"id":"1160"}],"left":[{"id":"1134"}],"min_border":0,"plot_width":1200,"renderers":[{"id":"1153"}],"title":{"id":"1167"},"toolbar":{"id":"1145"},"x_range":{"id":"1122"},"x_scale":{"id":"1126"},"y_range":{"id":"1124"},"y_scale":{"id":"1128"}},"id":"1121","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"abated":{"__ndarray__":"AAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAwAAAAQAAAACAAAAAQAAAAEAAAACAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==","dtype":"int32","order":"little","shape":[25]},"bottom":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"int32","order":"little","shape":[25]},"index":[18,24,20,8,14,23,17,2,11,4,6,9,21,15,1,19,25,10,7,22,16,13,5,3,12],"left":{"__ndarray__":"AAAAAAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAQAAAAFAAAABgAAAAkAAAANAAAADwAAABAAAAARAAAAEwAAABQAAAAUAAAAFQAAABcAAAAYAAAAGQAAABoAAAAaAAAAGwAAAA==","dtype":"int32","order":"little","shape":[25]},"right":{"__ndarray__":"AAAAAAAAAAABAAAAAgAAAAMAAAAEAAAABAAAAAUAAAAGAAAACQAAAA0AAAAPAAAAEAAAABEAAAATAAAAFAAAABQAAAAVAAAAFwAAABgAAAAZAAAAGgAAABoAAAAbAAAAGwAAAA==","dtype":"int32","order":"little","shape":[25]},"top":{"__ndarray__":"jP///4z///+c////nP///5z///++////vv///87////1////+////wcAAAASAAAAFAAAABQAAAAZAAAAIQAAACEAAAAtAAAAMgAAAEsAAABLAAAAUAAAAGQAAAB8AAAAfQAAAA==","dtype":"int32","order":"little","shape":[25]}},"selected":{"id":"1180"},"selection_policy":{"id":"1181"}},"id":"1120","type":"ColumnDataSource"},{"attributes":{"format":"$0,0"},"id":"1165","type":"NumeralTickFormatter"},{"attributes":{"axis":null,"grid_line_color":null,"ticker":{"id":"1157"}},"id":"1158","type":"Grid"},{"attributes":{},"id":"1139","type":"WheelZoomTool"},{"attributes":{},"id":"1159","type":"BasicTicker"},{"attributes":{},"id":"1180","type":"Selection"},{"attributes":{},"id":"1181","type":"UnionRenderers"},{"attributes":{},"id":"1138","type":"PanTool"},{"attributes":{"overlay":{"id":"1144"}},"id":"1140","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"1120"},"glyph":{"id":"1152"},"hover_glyph":null,"muted_glyph":null,"view":{"id":"1154"}},"id":"1153","type":"GlyphRenderer"},{"attributes":{"format":","},"id":"1163","type":"NumeralTickFormatter"},{"attributes":{"text":"Sample Marginal Abatement Cost Curve - By Building"},"id":"1167","type":"Title"},{"attributes":{},"id":"1141","type":"SaveTool"},{"attributes":{},"id":"1143","type":"HelpTool"},{"attributes":{"source":{"id":"1120"}},"id":"1154","type":"CDSView"},{"attributes":{},"id":"1124","type":"DataRange1d"},{"attributes":{},"id":"1142","type":"ResetTool"},{"attributes":{},"id":"1126","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1138"},{"id":"1139"},{"id":"1140"},{"id":"1141"},{"id":"1142"},{"id":"1143"},{"id":"1161"}]},"id":"1145","type":"Toolbar"},{"attributes":{"axis":{"id":"1130"},"grid_line_color":null,"ticker":null},"id":"1133","type":"Grid"},{"attributes":{"bottom":{"field":"bottom"},"fill_color":{"value":"slategrey"},"left":{"field":"left"},"right":{"field":"right"},"top":{"field":"top"}},"id":"1152","type":"Quad"},{"attributes":{},"id":"1131","type":"BasicTicker"},{"attributes":{},"id":"1122","type":"DataRange1d"},{"attributes":{},"id":"1135","type":"BasicTicker"},{"attributes":{},"id":"1128","type":"LinearScale"},{"attributes":{},"id":"1157","type":"BasicTicker"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1144","type":"BoxAnnotation"},{"attributes":{"axis_label":"CO2e Abated","formatter":{"id":"1163"},"ticker":{"id":"1131"}},"id":"1130","type":"LinearAxis"},{"attributes":{"formatter":{"id":"1165"},"ticker":{"id":"1135"}},"id":"1134","type":"LinearAxis"},{"attributes":{"axis":null,"dimension":1,"grid_line_color":null,"ticker":{"id":"1159"}},"id":"1160","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Measure","@index"],["Marginal Cost","@top{($ 0.00 a)}"],["tCO2e Abated","@abated{0,0}"]]},"id":"1161","type":"HoverTool"},{"attributes":{"axis":{"id":"1134"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1137","type":"Grid"}],"root_ids":["1121"]},"title":"Bokeh Application","version":"2.2.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1252').textContent;
+                  var render_items = [{"docid":"2cfe0e76-56b1-4cea-a7ca-62a7e61d1b14","root_ids":["1121"],"roots":{"1121":"a94016d8-a6e6-4e4c-96e2-894515767f5a"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
